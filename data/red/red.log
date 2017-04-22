@@ -1,0 +1,157 @@
+[21/04/2017 08:53] ERROR red load_cogs 580: You need to run `pip3 install youtube_dl`
+Traceback (most recent call last):
+  File "red.py", line 577, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\audio.py", line 2223, in setup
+    raise RuntimeError("You need to run `pip3 install youtube_dl`")
+RuntimeError: You need to run `pip3 install youtube_dl`
+[21/04/2017 09:00] ERROR owner load 73: You need to run `pip3 install youtube_dl`
+Traceback (most recent call last):
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\audio.py", line 2223, in setup
+    raise RuntimeError("You need to run `pip3 install youtube_dl`")
+RuntimeError: You need to run `pip3 install youtube_dl`
+[21/04/2017 09:02] ERROR owner load 73: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+Traceback (most recent call last):
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\audio.py", line 2244, in setup
+    "".format(msg))
+RuntimeError: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+
+[21/04/2017 09:07] ERROR owner load 73: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+Traceback (most recent call last):
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\audio.py", line 2244, in setup
+    "".format(msg))
+RuntimeError: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+
+[21/04/2017 09:27] ERROR owner load 73: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+Traceback (most recent call last):
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\audio.py", line 2244, in setup
+    "".format(msg))
+RuntimeError: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+
+[21/04/2017 09:42] ERROR owner load 73: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+Traceback (most recent call last):
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\audio.py", line 2244, in setup
+    "".format(msg))
+RuntimeError: ffmpeg isn't installed.
+Consult the guide for your operating system and do ALL the steps in order.
+https://twentysix26.github.io/Red-Docs/
+
+[21/04/2017 21:14] ERROR red <module> 640: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\aiohttp\connector.py", line 601, in _create_direct_connection
+    local_addr=self._local_addr)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 775, in create_connection
+    raise exceptions[0]
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 762, in create_connection
+    yield from self.sock_connect(sock, address)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\asyncio\selector_events.py", line 451, in sock_connect
+    return (yield from fut)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\asyncio\futures.py", line 380, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\asyncio\tasks.py", line 304, in _wakeup
+    future.result()
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\asyncio\futures.py", line 293, in result
+    raise self._exception
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\asyncio\selector_events.py", line 481, in _sock_connect_cb
+    raise OSError(err, 'Connect call failed %s' % (address,))
+OSError: [Errno 10065] Connect call failed ('104.16.59.5', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\aiohttp\connector.py", line 304, in connect
+    yield from self._create_connection(req)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\aiohttp\connector.py", line 578, in _create_connection
+    transport, proto = yield from self._create_direct_connection(req)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\aiohttp\connector.py", line 624, in _create_direct_connection
+    (req.host, req.port, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 10065] Can not connect to discordapp.com:443 [Connect call failed ('104.16.59.5', 443)]
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "red.py", line 621, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\asyncio\futures.py", line 293, in result
+    raise self._exception
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\asyncio\tasks.py", line 241, in _step
+    result = coro.throw(exc)
+  File "red.py", line 610, in main
+    yield from bot.connect()
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\client.py", line 452, in connect
+    self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\gateway.py", line 193, in from_client
+    gateway = yield from client.http.get_gateway()
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\http.py", line 631, in get_gateway
+    data = yield from self.request(Route('GET', '/gateway'))
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\http.py", line 136, in request
+    r = yield from self.session.request(method, url, **kwargs)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\aiohttp\client.py", line 555, in __iter__
+    resp = yield from self._coro
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\aiohttp\client.py", line 198, in _request
+    conn = yield from self._connector.connect(req)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\aiohttp\connector.py", line 314, in connect
+    .format(key, exc.strerror)) from exc
+aiohttp.errors.ClientOSError: [Errno 10065] Cannot connect to host discordapp.com:443 ssl:True [Can not connect to discordapp.com:443 [Connect call failed ('104.16.59.5', 443)]]
+[22/04/2017 17:11] INFO economy _set 393: cevoorn(211562278800195584) set 9999999 credits to cevoorn (211562278800195584)
+[22/04/2017 17:45] ERROR red on_command_error 376: Exception in command 'cleanup after'
+Traceback (most recent call last):
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\Dean\Desktop\Red-DiscordBot\cogs\mod.py", line 819, in after
+    after = await self.bot.get_message(channel, message_id)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\client.py", line 1474, in get_message
+    data = yield from self.http.get_message(channel.id, id)
+  File "C:\Users\Dean\AppData\Local\Programs\Python\Python35\lib\site-packages\discord\http.py", line 196, in request
+    raise NotFound(r, data)
+discord.errors.NotFound: NOT FOUND (status code: 404): Unknown Message

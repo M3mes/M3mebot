@@ -1,0 +1,19 @@
+{
+    "293777826673590272" : {
+        "ADMIN_ROLE" : "ultra dabber",
+        "MOD_ROLE" : "bot",
+        "PREFIXES" : []
+    },
+    "EMAIL" : null,
+    "OWNER" : "283047934579441666",
+    "PASSWORD" : null,
+    "PREFIXES" : [
+        "!"
+    ],
+    "TOKEN" : "MzA0NzUwOTQzNDQ5MjUxODQz.C9rM9Q.Odv36Y2MC9bvG11XyyA6rg28gvo",
+    "default" : {
+        "ADMIN_ROLE" : "ultra dabber",
+        "MOD_ROLE" : "M3me",
+        "PREFIXES" : []
+    }
+}
